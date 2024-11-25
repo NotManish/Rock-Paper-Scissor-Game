@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-align: center;
+}
+h1{
+    background-color: plum;
+    color:white;
+    height: 5rem;
+    text-align: center;
+    line-height: 5rem;
+    
+}
+.choice{
+    height: 180px;
+    width: 180px;
+
+}
+
+img{
+    height: 160px;
+    width: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 1rem;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+/* .score-board{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 5rem;
+    border: 2px solid plum;
+
+} */
+.score-board {
+    display: inline-flex; /* Shrinks to fit content width */
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    gap: 5rem;
+    border: 2px solid palevioletred;
+    padding: 1em; /* Optional: Add padding if needed */
+    
+}
+
+#user-score,#computer-score{
+    font-size: 4rem;
+
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.msg-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#msg{
+    background-color: plum;
+    padding: 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+#userimage img,#computerimage img{
+    height: 100px;
+    width: 100px;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+.dark{
+    background-color: #333333;
+    color: white;
+}
+#mode{
+    margin-top: 1rem;
+    border:none;
+     background-color: plum;
+     color: black;
+     border-radius: 0.5rem;
+     padding: 5px;
+}
